@@ -1,0 +1,218 @@
+{
+    "categorias": [
+        {
+            "id":1,
+            "titulo": "Gio - Dicas",
+            "link": "https://www.youtube.com/channel/UCs01wYqAP7dwr6bMAlv4Vzw",
+            "cor": "#8B008B",
+            "link_extra": {
+              "text": "Canal Gio",
+              "url": "https://www.youtube.com/channel/UCs01wYqAP7dwr6bMAlv4Vzw"
+            }
+        },
+        {
+            "id":2,
+            "titulo": "BRDGAMER",
+            "link": "https://www.youtube.com/channel/UCs01wYqAP7dwr6bMAlv4Vzw",
+            "cor": "#00C86F",
+            "link_extra": {
+              "text": "Canal BRDGAMER",
+              "url": "https://www.youtube.com/channel/UCpSp_bgUbcl2zX21dL8cIEw"
+            }
+        },
+        {
+          "id":3,
+          "titulo": " Cachorro1337",
+          "cor": "#A52A2A",
+          "link_extra": {
+            "text": "Canal Cachorro1337",
+            "url": "https://www.youtubfe.com/watch?v=e-qXYOPCnyw&list=PL4xlOkur55m9dAYsoAqUwlKtz1rhphQpM"
+          }
+        },
+        {
+          "id":4,
+          "titulo": " Fallen",
+          "cor": "#9cd33b",
+          "link_extra": {
+            "text": "Canal FallenINSIDER",
+            "url": "https://www.youtubfe.com/watch?v=e-qXYOPCnyw&list=PL4xlOkur55m9dAYsoAqUwlKtz1rhphQpM"
+          }
+        }
+    ],
+    "videos": [
+        {
+          "id":1,
+          "categoriaId":1,
+          "titulo": "Echoes of 2019",
+          "url": "https://www.youtube.com/watch?v=S4o-wwXWzYo&t=3s"
+        },
+        {
+          "id": 2,
+          "categoriaId": 1,
+          "titulo": "Treino individual #002 - Aim Reflex (ScreaM)",
+          "url": "https://www.youtube.com/watch?v=AER8NdCSzl8&list=PLW1mWMwLl9Ca4-UtyuLlwxs-aD56_uZ41&index=2"
+        },
+        {
+          "id": 3,
+          "categoriaId": 1,
+          "titulo": "Treino Individual #004 - Movimentação (Surf)",
+          "url": "https://www.youtube.com/watch?v=NYTy4NswbMA&list=PLW1mWMwLl9Ca4-UtyuLlwxs-aD56_uZ41&index=4"
+        },
+        {
+          "id": 4,
+          "categoriaId": 1,
+          "titulo": "Treino Individual #005 - Precisão (Elige)",
+          "url": "https://www.youtube.com/watch?v=qj9FXXJ_WDY&list=PLW1mWMwLl9Ca4-UtyuLlwxs-aD56_uZ41&index=5"
+        },
+        {
+          "id": 5,
+          "categoriaId": 1,
+          "titulo": "Treino Individual #007 - Sensibilidade",
+          "url": "https://www.youtube.com/watch?v=FbF02sr4JC4&list=PLW1mWMwLl9Ca4-UtyuLlwxs-aD56_uZ41&index=7"
+        },
+        {
+          "id": 6,
+          "categoriaId": 1,
+          "titulo": "Treino Individual #008 - AWP (fundamentos)",
+          "url": "https://www.youtube.com/watch?v=8dxSykfWOCc&list=PLW1mWMwLl9Ca4-UtyuLlwxs-aD56_uZ41&index=8"
+        },
+        {
+          "id": 7,
+          "categoriaId": 1,
+          "titulo": "As 3 MELHORES dicas pra melhorar seu INDIVIDUAL",
+          "url": "https://www.youtube.com/watch?v=5H35z3bQErc&list=PLW1mWMwLl9Ca4-UtyuLlwxs-aD56_uZ41&index=11"
+        },
+        {
+          "id": 8,
+          "categoriaId": 1,
+          "titulo": "O que os PROs NÃO CONTAM e MELHORA MUITO A MIRA (Recoil, Pos. de Mira e Spray Transfer)",
+          "url": "https://www.youtube.com/watch?v=WM3DQrbjU2c&list=PLW1mWMwLl9Ca4-UtyuLlwxs-aD56_uZ41&index=14"
+        },
+        {
+          "id": 9,
+          "categoriaId": 2,
+          "titulo": "O TIME JOGOU pra DETONAR no GLOBAL, inscrito OURO 1 ficou em choque?",
+          "url": "https://www.youtube.com/watch?v=vrZ2pdxaXU4"
+        },
+        {
+          "id": 10,
+          "categoriaId": 2,
+          "titulo": "BRD no PRATA - Usei SÓ POP FLASH pra matar, ficaram FURIOSOS e fui kickado?",
+          "url": "https://www.youtube.com/watch?v=jYNTTvj-y3E"
+        },
+        {
+          "id": 11,
+          "categoriaId": 2,
+          "titulo": "BRD só dando 1TAP contra ÁGUIAS com 2 BOTS no time, nunca TILTEI assim!",
+          "url": "https://www.youtube.com/watch?v=i5_tOIFRIDA"
+        },
+        {
+          "id": 12,
+          "categoriaId": 2,
+          "titulo": "O dia que JOGUEI sem FONE de CT contra 3 globais no MM, mitei ou PINEI?",
+          "url": "https://www.youtube.com/watch?v=wOfLctVrgYI"
+        },
+        {
+          "id": 13,
+          "categoriaId": 2,
+          "titulo": "Deitei 46 bonecos no GLOBAL e PERDI, como é possível? Fiquei Nervoso!",
+          "url": "https://www.youtube.com/watch?v=iZ9akASXUeI"
+        },
+        {
+          "id": 14,
+          "categoriaId": 2,
+          "titulo": "USEI só Revólver-R8 no PRATA com mousepad de PAPEL e MOUSE de 15 REAIS!",
+          "url": "https://www.youtube.com/watch?v=6eSoQOggV0E"
+        },
+        {
+          "id": 15,
+          "categoriaId": 2,
+          "titulo": "Joguei CSGO no FULL HD 16:9 no Global pela 1º vez e isso ACONTECEU, choraram?",
+          "url": "https://www.youtube.com/watch?v=yzsebBUdE0o"
+        },
+        {
+          "id": 16,
+          "categoriaId": 3,
+          "titulo": "zerei meu INVENTÁRIO... Só eu tenho essa SKIN na AMÉRICA DO SUL!",
+          "url": "https://www.youtube.com/watch?v=pqnu86aHwzw"
+        },
+        {
+          "id": 17,
+          "categoriaId": 3,
+          "titulo": "muitos o ACUSAM de ser HACK... E agora ele foi para TEAM LIQUID! (futuro do cenário mundial?)",
+          "url": "https://www.youtube.com/watch?v=0TLhA3MnWkg&t=623s"
+        },
+        {
+          "id": 18,
+          "categoriaId": 3,
+          "titulo": "suspeito usando AIMBOT com BAYONET RARA no INVENTÁRIO... (inacreditável)",
+          "url": "https://www.youtube.com/watch?v=Xi-v7OdC9Ss"
+        },
+        {
+          "id": 19,
+          "categoriaId": 3,
+          "titulo": "as facas DELTA DOPPLER são FENOMENAIS... (pattern raro ROSE QUARTZ)",
+          "url": "https://www.youtube.com/watch?v=0rkDoroZAB8&t=671s"
+        },
+        {
+          "id": 20,
+          "categoriaId": 3,
+          "titulo": "dia histórico... Primeira SKIN TOP #1 MUNDIAL no meu INVENTÁRIO!",
+          "url": "https://www.youtube.com/watch?v=zksgjBeD5Ik"
+        },
+        {
+          "id": 21,
+          "categoriaId": 3,
+          "titulo": "AAAAAAA NÃO CREIO",
+          "url": "https://www.youtube.com/watch?v=kcJlryXxYgI"
+        },
+        {
+          "id": 22,
+          "categoriaId": 3,
+          "titulo": "Cara... Eu não sei o que dizer!",
+          "url": "https://www.youtube.com/watch?v=hzMpm9TLB_A"
+        },
+        {
+          "id": 23,
+          "categoriaId": 4,
+          "titulo": "FALLEN BY YEAH VS TRIUMPH - MELHORES MOMENTOS OVERPASS",
+          "url": "https://www.youtube.com/watch?v=EwEcN1dYwLM"
+        },
+        {
+          "id": 24,
+          "categoriaId": 4,
+          "titulo": "CAIU OS 5 DO MIBR NO MESMO TIME ? ‹ FalleN ›",
+          "url": "https://www.youtubfe.com/watch?v=e-qXYOPCnyw&list=PL4xlOkur55m9dAYsoAqUwlKtz1rhphQpM"
+        },
+        {
+          "id": 25,
+          "categoriaId": 4,
+          "titulo": "A PIOR DERROTA DA MINHA CARREIRA? ‹ FalleN ›",
+          "url": "https://www.youtube.com/watch?v=1uLyBxRa7F4"
+        },
+        {
+          "id": 26,
+          "categoriaId": 4,
+          "titulo": "FalleN vs Furia (Blast Spring 2020)",
+          "url": "https://www.youtube.com/watch?v=JhdTgsV5efI"
+        },
+        {
+          "id": 27,
+          "categoriaId": 4,
+          "titulo": "CAIU OS 5 DO MIBR NO MESMO TIME ? ‹ FalleN ›",
+          "url": "https://www.youtube.com/watch?v=hcoXIAAb3ic"
+        },
+        {
+          "id": 28,
+          "categoriaId": 4,
+          "titulo": "O DEDINHO NERVOSO! - VERDADEIRO ou CHEAT #43",
+          "url": "https://www.youtube.com/watch?v=OplGtqiElPU&t=524s"
+        },
+        {
+          "id": 29,
+          "categoriaId": 4,
+          "titulo": "Repeti os 5k na VERTIGO? do PRATA ao GLOBAL | FalleN",
+          "url": "https://www.youtube.com/watch?v=AinAobz_o_0"
+        }
+    ]
+  }
