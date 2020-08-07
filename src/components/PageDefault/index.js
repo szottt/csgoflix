@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import 'react-toastify/dist/ReactToastify.css';
 
-import Header from '../header';
+import Header from '../Header';
 import Footer from '../Footer';
 
 const Main = styled.main`
@@ -13,7 +13,7 @@ const Main = styled.main`
   padding-left: 5%;
   padding-right: 5%;
   ${({ paddingAll }) => css`
-    padding: ${paddingAll}} 
+    padding: ${paddingAll}}
   `}
 `;
 
