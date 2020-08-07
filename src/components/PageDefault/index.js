@@ -1,6 +1,8 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import Menu from '../Menu';
+import 'react-toastify/dist/ReactToastify.css';
+
+import Header from '../header';
 import Footer from '../Footer';
 
 const Main = styled.main`
@@ -11,20 +13,16 @@ const Main = styled.main`
   padding-left: 5%;
   padding-right: 5%;
   ${({ paddingAll }) => css`
-    padding: ${paddingAll};
-  `};
+    padding: ${paddingAll}} 
+  `}
 `;
 
-function PageDefault({ children, paddingAll }) {
-  return (
-    <>
-      <Menu />
-      <Main paddingAll={paddingAll}>
-        {children}
-      </Main>
-      <Footer />
-    </>
-  );
-}
+const PageDefault = ({ children, paddingAll }) => (
+  <>
+    <Header />
+    <Main paddingAll={paddingAll}>{children}</Main>
+    <Footer />
+  </>
+);
 
 export default PageDefault;

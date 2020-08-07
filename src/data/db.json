@@ -3,42 +3,28 @@
         {
             "id":1,
             "titulo": "Gio - Dicas",
-            "link": "https://www.youtube.com/channel/UCs01wYqAP7dwr6bMAlv4Vzw",
-            "cor": "#8B008B",
-            "link_extra": {
-              "text": "Canal Gio",
-              "url": "https://www.youtube.com/channel/UCs01wYqAP7dwr6bMAlv4Vzw"
-            }
+            "descricao":"Canal do Gio",
+            "cor": "#8B008B"
         },
         {
             "id":2,
             "titulo": "BRDGAMER",
-            "link": "https://www.youtube.com/channel/UCs01wYqAP7dwr6bMAlv4Vzw",
-            "cor": "#00C86F",
-            "link_extra": {
-              "text": "Canal BRDGAMER",
-              "url": "https://www.youtube.com/channel/UCpSp_bgUbcl2zX21dL8cIEw"
-            }
+            "descricao": "Canal BRDGAMER",
+            "cor": "#00C86F"
         },
         {
           "id":3,
           "titulo": " Cachorro1337",
           "cor": "#A52A2A",
-          "link_extra": {
-            "text": "Canal Cachorro1337",
-            "url": "https://www.youtubfe.com/watch?v=e-qXYOPCnyw&list=PL4xlOkur55m9dAYsoAqUwlKtz1rhphQpM"
-          }
+          "descricao": "Canal Cachorro1337"
         },
         {
           "id":4,
           "titulo": " Fallen",
           "cor": "#9cd33b",
-          "link_extra": {
-            "text": "Canal FallenINSIDER",
-            "url": "https://www.youtubfe.com/watch?v=e-qXYOPCnyw&list=PL4xlOkur55m9dAYsoAqUwlKtz1rhphQpM"
-          }
+          "descricao": "Canal FallenINSIDER"
         }
-    ],
+        ],
     "videos": [
         {
           "id":1,

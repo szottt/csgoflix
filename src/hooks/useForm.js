@@ -1,30 +1,25 @@
 import { useState } from 'react';
 
-function useForm(valoresIniciais) {
-  const [values, setValues] = useState(valoresIniciais);
+function useForm(initialValues) {
+  const [values, setValues] = useState(initialValues);
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
+  function setValue(key, value) {
+    setValues({ ...values, [key]: value });
   }
 
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('titulo'),
-      infosDoEvento.target.value,
-    );
+  function handleChange(event) {
+    const { name, value } = event.target;
+    setValue(name, value);
   }
 
-  function clearFOrm() {
-    setValue(valoresIniciais);
+  function clearForm() {
+    setValues(initialValues);
   }
 
   return {
     values,
     handleChange,
-    clearFOrm,
+    clearForm,
   };
 }
 

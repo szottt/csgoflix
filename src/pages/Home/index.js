@@ -1,41 +1,48 @@
 import React, { useEffect, useState } from 'react';
+import PacmanLoader from 'react-spinners/PacmanLoader';
+import styled from 'styled-components';
+
 import PageDefault from '../../components/PageDefault';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-// eslint-disable-next-line import/no-named-as-default-member
+
 import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
-  const [dadosIniciais, setDadosIniciais] = useState([]);
-
+  const [data, setData] = useState([]);
   useEffect(() => {
-    categoriasRepository.getAllWithVideos()
+    categoriasRepository
+      .getAllWithVideos()
       .then((categoriasComVideos) => {
-        setDadosIniciais(categoriasComVideos);
+        setData(categoriasComVideos);
       })
+
       .catch((err) => {
         console.log(err.message);
       });
+    //   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
+    <PageDefault paddingAll={0} style={{ backgrounColor: '#141414' }}>
+      {data.length === 0 && (
+        <Div>
+          <PacmanLoader size={25} color="#DC1A28" />
+        </Div>
+      )}
 
-    <PageDefault paddingAll={0}>
-
-      {dadosIniciais.length === 0 && (<div>Loading...</div>) }
-
-      {dadosIniciais.map((categoria, indice) => {
+      {data.map((categoria, indice) => {
         if (indice === 0) {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
+                videoTitle={data[0].videos[0].titulo}
+                url={data[0].videos[0].url}
                 videosDescription="Um pouco de um dos melhores videos de HighLights de CSGO"
               />
               <Carousel
                 ignoreFirstVideo
-                category={dadosIniciais[0]}
+                category={data[0]}
               />
             </div>
           );
@@ -53,3 +60,11 @@ function Home() {
 }
 
 export default Home;
+
+const Div = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  `;
