@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { MdDelete, MdModeEdit } from 'react-icons/md';
-import PacmanLoader from 'react-spinners/PacmanLoader';
+import CircleLoader from 'react-spinners/CircleLoader';
 import { ToastContainer, toast } from 'react-toastify';
 
 import config from '../../../config';
@@ -108,13 +108,13 @@ function Categoria() {
         </ButtonCategory>
         <ToastContainer position="top-right" autoClose={3000} />
       </form>
-      {/* OLHAR AQUI DEPOIS */}
+
       {categories.length === 0 && (
         <Loading>
-          <PacmanLoader size={25} color="#DC1A28" />
+          <CircleLoader size={25} color="#DC1A28" />
         </Loading>
       )}
-      {/* ATE AQUI  */}
+
       <Table>
         <thead>
           <tr>

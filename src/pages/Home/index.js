@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import PacmanLoader from 'react-spinners/PacmanLoader';
+import CircleLoader from 'react-spinners/CircleLoader';
 import styled from 'styled-components';
 
 import PageDefault from '../../components/PageDefault';
@@ -27,7 +27,7 @@ function Home() {
     <PageDefault paddingAll={0} style={{ backgrounColor: '#141414' }}>
       {data.length === 0 && (
         <Div>
-          <PacmanLoader size={25} color="#DC1A28" />
+          <CircleLoader size={25} color="#DC1A28" />
         </Div>
       )}
 

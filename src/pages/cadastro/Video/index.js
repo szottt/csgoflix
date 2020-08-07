@@ -40,6 +40,7 @@ function NovoVideo() {
       });
   }
 
+
   function handleClear(event) {
     event.preventDefault();
     clearForm();

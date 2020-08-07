@@ -23,6 +23,12 @@
       "titulo": " Fallen",
       "cor": "#9cd33b",
       "descricao": "Canal FallenINSIDER"
+    },
+    {
+      "titulo": "Gaules",
+      "cor": "#0f37d7",
+      "descricao": "Seja bem vindo a TRIBO!",
+      "id": 5
     }
   ],
   "videos": [
@@ -205,6 +211,30 @@
       "url": "https://www.youtube.com/watch?v=4RjdXxeYhfA",
       "categoriaId": 1,
       "id": 30
+    },
+    {
+      "titulo": "\"ISSO NÃO SE FAZ\", Dannyshaman - Analisando Inscritos",
+      "url": "https://www.youtube.com/watch?v=rFNthz5LLZs",
+      "categoriaId": 1,
+      "id": 31
+    },
+    {
+      "titulo": "NÃO tenha MEDO!!",
+      "url": "https://www.youtube.com/watch?v=8gRcWnhrzKU",
+      "categoriaId": 5,
+      "id": 32
+    },
+    {
+      "titulo": "MUITA PATIFARIA no DM de CS:GO!!",
+      "url": "https://www.youtube.com/watch?v=IQl8n8OQ8mM",
+      "categoriaId": 5,
+      "id": 33
+    },
+    {
+      "titulo": "NOVO RECORDE da TRIBONERA na final da BLAST PREMIER!! *393K*",
+      "url": "https://www.youtube.com/watch?v=xvKGldwwSaA",
+      "categoriaId": 5,
+      "id": 34
     }
   ]
 }

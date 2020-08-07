@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Iframe from 'react-iframe';
 import PageDefault from '../../components/PageDefault';
+import C4 from '../../assets/img/c4.jpeg';
 
 const Erro = styled.div`
   div {
@@ -18,7 +19,7 @@ const Erro = styled.div`
   }
 `;
 const Erro404 = () => {
-  const url = 'https://mariosouto.com/flappy-bird-devsoutinho/';
+  const url = C4;
   return (
     <PageDefault>
       <Erro>
