@@ -108,7 +108,7 @@ function Categoria() {
         </ButtonCategory>
         <ToastContainer position="top-right" autoClose={3000} />
       </form>
-    {/* OLHAR AQUI DEPOIS */}
+      {/* OLHAR AQUI DEPOIS */}
       {categories.length === 0 && (
         <Loading>
           <PacmanLoader size={25} color="#DC1A28" />
